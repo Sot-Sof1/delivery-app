@@ -1,0 +1,1039 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor-menu {
+    width: 100%;
+    height: 14rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20rem;
+
+}
+
+.logo {
+    width: 19rem;
+}
+
+a {
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: black;
+    margin-left: 1rem;
+}
+
+.navegacion {
+    color: white;
+    background-color: #e8505b;
+    padding: 1rem;
+    border-radius: 0.7rem;
+    transition: 0.4s;
+}
+
+.navegacion:hover {
+    background-color: #bd252f;
+    transition: 0.4s;
+}
+
+.formulario {
+    width: 42%;
+    height: 35rem;
+    background-color: #e8505b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.repartidor {
+    width: 34rem;
+    transform: translateY(3rem);
+}
+
+.seccion-1 {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    height: 53rem;
+    justify-content: center;
+}
+
+.contenido-formulario {
+    padding: 1rem;
+    width: 85%;
+}
+
+.texto-formulario {
+    color: white;
+    font-size: 2rem;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.formulario-campo {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    transform: translateY(4rem);
+}
+
+.primer-campo {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.formulario-label {
+    color: white;
+    font-family: sans-serif;
+    font-size: 1rem;
+}
+
+.formulario-input {
+    font-family: sans-serif;
+    font-size: 1rem;
+    padding: 0.9rem;
+    border: none;
+}
+
+.boton-buscar {
+    padding: 0.8rem;
+    font-family: sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background-color: #455a64;
+    border: none;
+    border-radius: 0.5rem;
+    transition: 0.4s;
+}
+
+.boton-buscar:hover {
+    background-color: #1d2a30;
+    transition: 0.4s;
+}
+
+.seccion-2 {
+    width: 100%;
+    height: 45.5rem;
+    background-color: #e8505b;
+}
+
+.ola {
+    position: absolute;
+    transform: translateY(-14rem);
+}
+
+.como-funciona-contenido {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+.como-funciona {
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+
+}
+
+.tan-facil {
+    color: white;
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    height: 5rem;
+}
+
+.pasos-contenido {
+    width: 95%;
+    display: flex;
+    transform: translateX(2rem);
+}
+
+.paso-1 {
+    width: 85%;
+    transition: 0.4s;
+}
+
+.paso-1:hover {
+    transform: rotate(-4deg) scale(1.2);
+    transition: 0.4s;
+}
+
+.seccion-3 {
+    width: 100%;
+    height: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo-testimoniales {
+    width: 100%;
+    height: 8rem;
+    transform: translateY(3rem);
+    font-family: sans-serif;
+    font-size: 2.3rem;
+    text-align: center;
+}
+
+.testimoniales {
+    background-color: #455a64;
+    width: 40rem;
+    height: 17rem;
+    padding: 3.5rem;
+    border-radius: 1rem;
+}
+
+.testimonio {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    transform: translateX(-2rem);
+}
+
+.foto-1 {
+    width: 5rem;
+    border-radius: 10rem;
+}
+
+.nombre {
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.reseña {
+    color: white;
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    margin-left: -1rem;
+    text-align: justify;
+}
+
+.collage-testimonios {
+    display: grid;
+    gap: 1rem;
+    width: 83%;
+}
+
+.testimoniales {
+    width: 100%;
+    height: 100%;
+}
+
+.testimoniales:nth-child(1) {
+    grid-column-start: span 2;
+}
+
+.testimoniales:nth-child(4) {
+    grid-column-start: span 1;
+}
+
+.seccion-4 {
+    width: 100%;
+    height: 108rem;
+    background-color: #eceeef;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.restaurante-favorito {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    height: 7rem;
+    color: #455a64;
+    transform: translateY(3rem);
+}
+
+.contenedor-restaurantes {
+    width: 89%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.green-ensaladas-contenedor {
+    width: 45%;
+    height: 18rem;
+    background-color: white;
+    margin-top: 1.5rem;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 2.6rem -0.8rem #99a4a9;
+}
+
+.green-ensaladas {
+    height: 15rem;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.contenedor-logo-ensalada {
+    width: 80%;
+    margin-left: 1rem;
+    transform: translateX(16px);
+    height: 5rem;
+}
+
+.logo-ensalada {
+    width: 100%;
+}
+
+.descripcion {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    transform: translateY(1rem);
+}
+
+.nombre-empresa {
+    color: #e8505b;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.lorem {
+    width: 90%;
+    font-family: sans-serif;
+    color: #455a64;
+    text-align: justify;
+    line-height: 25px;
+}
+
+.estrellas-2 {
+    width: 45%;
+    transform: translateY(0.5rem);
+}
+
+.seccion-5 {
+    width: 100%;
+    height: 35rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contendenor-appcomida {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8rem;
+}
+
+.AppComida {
+    color: #455a64;
+    font-family: sans-serif;
+    font-size: 2rem;
+}
+
+.contenedor-parrafo-e-imagen {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    width: 90%;
+}
+
+.repatidor {
+    width: 35rem;
+}
+
+.contenedor-texto-seccion5 {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.texto {
+    width: 90%;
+    color: #455a64;
+    font-family: sans-serif;
+    font-size: 1.3rem;
+    text-align: justify;
+}
+
+.boton-informacion {
+    width: 40%;
+    padding: 0.8rem;
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    background-color: #e8505b;
+    border: none;
+    border-radius: 0.5rem;
+    transition: 0.4s;
+}
+
+.boton-informacion:hover {
+    background-color: #bd252f;
+    transition: 0.4s;
+}
+
+.seccion-6 {
+    width: 100%;
+    height: 50rem;
+    background-color: #eceeef;
+}
+
+.contenedor-descargarapps {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50rem;
+}
+
+.contendeor-app {
+    display: flex;
+    width: 40%;
+    transform: translateX(-7rem);
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.descargar-imagen {
+    width: 40%;
+    transition: 0.4s;
+}
+
+.descargar-imagen:hover {
+    transform: rotate(4deg) scale(1.2);
+    transition: 0.4s;
+}
+
+.contenedor-imagen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.appleyplaystore {
+    width: 50%;
+    transition: 0.4s;
+}
+
+.appleyplaystore:hover {
+    transform: scale(1.2);
+    transition: 0.4s;
+}
+
+.titulo-descarga {
+    color: #455a64;
+    font-family: sans-serif;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.parrafo-androidyios {
+    font-family: sans-serif;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.imagenes-apps {
+    display: flex;
+    gap: 1rem;
+}
+
+.seccion-7 {
+    width: 100%;
+    height: 24rem;
+    background-color: #455a64;
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor-footer {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 24rem;
+    gap: 4rem;
+}
+
+.titulos-footer {
+    font-family: sans-serif;
+    font-size: 2rem;
+    color: white;
+    height: 3rem;
+}
+
+.parrafo-footer {
+    color: white;
+    font-family: sans-serif;
+    font-size: 1.3rem;
+    line-height: 2.3rem;
+    text-align: justify;
+}
+
+.contenedor-enlaces {
+    display: flex;
+    flex-direction: column;
+    line-height: 2rem;
+    text-align: left;
+}
+
+.enlaces {
+    color: white;
+    font-weight: lighter;
+    font-size: 1.3rem;
+    margin-left: 0;
+}
+
+.footer {
+    width: 100%;
+    height: 4rem;
+    background-color: #e8505b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textocopy {
+    color: white;
+    font-size: 1.3rem;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+
+@media (max-width: 580px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .contenedor-menu {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transform: translateY(13rem);
+    }
+
+
+    .logo {
+    width: 20rem;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-left: -1rem;
+    transform: translateY(-16rem);
+    line-height: 3rem;
+
+}
+
+a {
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: black;
+
+}
+
+.navegacion {
+    color: white;
+    background-color: #e8505b;
+    padding: 1rem;
+    border-radius: 0.7rem;
+}
+
+.navegacion:hover {
+    background-color: #bd252f;
+    transition: 0.2s;
+}
+
+.formulario {
+    width: 96%;
+    height: 40rem;
+    background-color: #e8505b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.repartidor {
+    width: 20rem;
+    transform: none;
+}
+
+.seccion-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 83rem;
+}
+
+.contenido-formulario {
+    padding: 1rem;
+    width: 85%;
+}
+
+.texto-formulario {
+    color: white;
+    font-size: 2rem;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.formulario-campo {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    transform: translateY(4rem);
+}
+
+.primer-campo {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.formulario-label {
+    color: white;
+    font-family: sans-serif;
+    font-size: 1rem;
+}
+
+.formulario-input {
+    font-family: sans-serif;
+    font-size: 1rem;
+    padding: 0.9rem;
+    border: none;
+}
+
+.boton-buscar {
+    padding: 0.8rem;
+    font-family: sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background-color: #455a64;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+.boton-buscar:hover {
+    background-color: #1d2a30;
+    transition: 0.2s;
+}
+
+.seccion-2 {
+    width: 100%;
+    height: 130rem;
+    background-color: #e8505b;
+}
+
+.ola {
+    position: absolute;
+    transform: translateY(-5rem);
+}
+
+.como-funciona-contenido {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+.como-funciona {
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+
+}
+
+.tan-facil {
+    color: white;
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    height: 5rem;
+}
+
+.pasos-contenido {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    transform: none;
+}
+
+.paso-1 {
+    width: 85%;
+}
+
+.paso-1:hover {
+    transform: rotate(-4deg) scale(1.2);
+    transition: 0.4s;
+}
+
+.seccion-3 {
+    width: 100%;
+    height: 110rem;
+    display: flex;
+    align-items: center;
+}
+
+.titulo-testimoniales {
+    width: 100%;
+    height: 8rem;
+    font-family: sans-serif;
+    font-size: 2.3rem;
+    text-align: center;
+}
+
+.testimoniales {
+    background-color: #455a64;
+    width: 40rem;
+    height: 17rem;
+    padding: 3.5rem;
+    border-radius: 1rem;
+}
+
+.testimonio {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    transform: translateX(-2rem);
+}
+
+.foto-1 {
+    width: 5rem;
+    border-radius: 10rem;
+}
+
+.nombre {
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.reseña {
+    color: white;
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    margin-left: -1rem;
+    text-align: justify;
+}
+
+.collage-testimonios {
+    display: flex;
+    flex-direction: column;
+}
+
+.testimoniales {
+    width: 100%;
+    height: 100%;
+}
+
+.seccion-4 {
+    width: 100%;
+    height: 287rem;
+    background-color: #eceeef;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.restaurante-favorito {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    height: 7rem;
+    color: #455a64;
+    transform: translateY(3rem);
+}
+
+.contenedor-restaurantes {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+}
+
+.green-ensaladas-contenedor {
+    width: 100%;
+    height: 26rem;
+    background-color: white;
+    margin-top: 1.5rem;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 2.6rem -0.8rem #99a4a9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.green-ensaladas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.contenedor-logo-ensalada {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 5rem;
+    margin-left: -1rem;
+}
+
+.logo-ensalada {
+    width: 45%;
+}
+
+.descripcion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.nombre-empresa {
+    color: #e8505b;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.lorem {
+    width: 90%;
+    font-family: sans-serif;
+    color: #455a64;
+    text-align: justify;
+    line-height: 25px;
+}
+
+.estrellas-2 {
+    width: 45%;
+}
+
+.seccion-5 {
+    width: 100%;
+    height: 60rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contendenor-appcomida {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8rem;
+}
+
+.AppComida {
+    color: #455a64;
+    font-family: sans-serif;
+    font-size: 2rem;
+}
+
+.contenedor-parrafo-e-imagen {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+    width: 90%;
+}
+
+.repatidor {
+    width: 100%
+}
+
+.contenedor-texto-seccion5 {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.texto {
+    width: 100%;
+    color: #455a64;
+    font-family: sans-serif;
+    font-size: 1.3rem;
+    text-align: justify;
+}
+
+.boton-informacion {
+    width: 100%;
+    padding: 0.8rem;
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    background-color: #e8505b;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+.boton-informacion:hover {
+    background-color: #bd252f;
+    transition: 0.2s;
+}
+
+.seccion-6 {
+    width: 100%;
+    height: 50rem;
+    background-color: #eceeef;
+}
+
+.contenedor-descargarapps {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    align-items: center;
+    height: 50rem;
+}
+
+.contendeor-app {
+    width: 90%;
+    transform: none;
+    display: flex;
+    align-items: center;
+}
+
+.descargar-imagen {
+    width: 45%;
+}
+
+.descargar-imagen:hover {
+    transform: rotate(4deg) scale(1.2);
+    transition: 0.2s;
+}
+
+.contenedor-imagen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.appleyplaystore {
+    width: 50%;
+}
+
+.appleyplaystore:hover {
+    transform: scale(1.2);
+    transition: 0.2s;
+}
+
+.titulo-descarga {
+    color: #455a64;
+    font-family: sans-serif;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.parrafo-androidyios {
+    font-family: sans-serif;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.imagenes-apps {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    width: 90%;
+}
+
+.seccion-7 {
+    width: 100%;
+    height: 61rem;
+    background-color: #455a64;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.contenedor-footer {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 24rem;
+    gap: 4rem;
+}
+
+.titulos-footer {
+    font-family: sans-serif;
+    font-size: 2rem;
+    color: white;
+    height: 3rem;
+}
+
+.parrafo-footer {
+    color: white;
+    font-family: sans-serif;
+    font-size: 1.3rem;
+    line-height: 2.3rem;
+    text-align: justify;
+}
+
+.contenedor-navegacion {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.contenedor-enlaces {
+    display: flex;
+    flex-direction: column;
+    line-height: 2rem;
+    text-align: center;
+    transform: none;
+    margin-left: 0;
+}
+
+.enlaces {
+    color: white;
+    font-weight: lighter;
+    font-size: 1.3rem;
+    margin-left: 0;
+}
+
+.footer {
+    width: 100%;
+    height: 4rem;
+    background-color: #e8505b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textocopy {
+    color: white;
+    font-size: 1.3rem;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+}
+
